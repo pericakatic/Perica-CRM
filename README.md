@@ -26,8 +26,8 @@ composer install
 
 cp .env.example .env
 
-## (kreirajte MySQL bazu, podesite DB_ sekciju u .env konfiguracijskom fajlu, u ovom slučaju MySQL ili Postgres
-## Za produkciju podesiti APP_ sekciju + key ostaviti prazno, debug=false)
+# (kreirajte MySQL bazu, podesite DB_ sekciju u .env konfiguracijskom fajlu, u ovom slučaju MySQL ili Postgres
+# Za produkciju podesiti APP_ sekciju + key ostaviti prazno, debug=false)
 
 php artisan key:generate
 
@@ -35,7 +35,7 @@ php artisan migrate --seed
 
 php artisan db:seed --force
 
-## default user:
+# default user:
 email:demo@pericacrm.webkatic.com
 
 password:demo
