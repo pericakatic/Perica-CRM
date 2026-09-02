@@ -24,17 +24,14 @@ cd Perica-CRM
 
 composer install
 
-npm install
-
 cp .env.example .env
 
-(podesite DB_ sekciju u .env konfiguracijskom fajlu, u ovom slučaju MySQL ili Postgres)
+(kreirajte MySQL bazu, podesite DB_ sekciju u .env konfiguracijskom fajlu, u ovom slučaju MySQL ili Postgres
+Za produkciju podesiti APP_ sekciju + key ostaviti prazno, debug=false)
 
 php artisan key:generate
 
 php artisan migrate --seed
 
-php artisan serve
-
-npm run dev
+php artisan db:seed --force
 
