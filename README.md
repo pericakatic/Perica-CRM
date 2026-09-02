@@ -4,7 +4,7 @@ https://photos.app.goo.gl/NEqFohhqp3PVyRzv8
 
 
 
-## UPUTE
+## UPUTE ZA INSTALACIJU
 ## kloniranje repozitorija i pokretanje Perica CRM aplikacije 
 
 
