@@ -25,13 +25,13 @@
 
         <div>
             <label for="email" class="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1">Email adresa</label>
-            <input type="email" name="email" id="email" value="{{ old('email', 'info@pericacrm.com') }}" required autofocus
+            <input type="email" name="email" id="email" value="{{ old('email', '') }}" required autofocus
                    class="w-full text-sm border-gray-300 rounded-lg p-2.5 border focus:ring-2 focus:ring-indigo-500 focus:outline-none">
         </div>
 
         <div>
             <label for="password" class="block text-xs font-semibold uppercase tracking-wider text-gray-700 mb-1">Zaporka</label>
-            <input type="password" name="password" id="password" value="demo123!" required
+            <input type="password" name="password" id="password" value="" required
                    class="w-full text-sm border-gray-300 rounded-lg p-2.5 border focus:ring-2 focus:ring-indigo-500 focus:outline-none">
         </div>
 
