@@ -15,7 +15,7 @@ https://photos.app.goo.gl/NEqFohhqp3PVyRzv8
 <a href="https://ibb.co/60p4zKXL"><img src="https://i.ibb.co/HTMr6ch3/Screenshot-from-2026-09-02-22-28-16.png" alt="Screenshot-from-2026-09-02-22-28-16" border="0"></a>
 
 ## UPUTE ZA INSTALACIJU
-## kloniranje repozitorija i pokretanje Perica CRM aplikacije 
+### kloniranje repozitorija i pokretanje Perica CRM aplikacije 
 
 
 git clone git@github.com:pericakatic/Perica-CRM.git
@@ -26,8 +26,8 @@ composer install
 
 cp .env.example .env
 
-# (kreirajte MySQL bazu, podesite DB_ sekciju u .env konfiguracijskom fajlu, u ovom slučaju MySQL ili Postgres
-# Za produkciju podesiti APP_ sekciju + key ostaviti prazno, debug=false)
+### (kreirajte MySQL bazu, podesite DB_ sekciju u .env konfiguracijskom fajlu, u ovom slučaju MySQL ili Postgres
+### Za produkciju podesiti APP_ sekciju + key ostaviti prazno, debug=false)
 
 php artisan key:generate
 
